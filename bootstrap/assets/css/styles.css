@@ -1,0 +1,48 @@
+body{
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:14px;
+  line-height:1.42857143;
+  color:#fefbfb;
+  background-color:rgb(46,54,61);
+}
+
+.navbar-default{
+  background-color:rgba(9,94,255,0.86);
+  border-color:#3546dd;
+}
+
+.navbar-default{
+  background-image:linear-gradient(to bottom,#1d8ee0 0,#86cfee 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:#fffefe;
+}
+
+.text-danger{
+  color:#f70a05;
+}
+
+.text-muted{
+  color:#f7f6f6;
+}
+
+footer{
+  padding:14px;
+  text-align:center;
+  background-color:rgb(50,170,238);
+  color:white;
+}
+
+.page-header{
+  padding-bottom:20px;
+  margin:40px 0 20px;
+  border-bottom:1px solid #eee;
+}
+
+a.navbar-brand.navbar-link{
+  font-size:50px;
+  color:red;
+}
+
