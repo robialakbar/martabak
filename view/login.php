@@ -102,7 +102,7 @@ Manajemen Arsip Rapi Terintegrasi Aplikasi Berbasis Administrasi Kepegawaian<?ph
                 <div class="form-group" style="padding-left: 20px;padding-right: 20px;">
                   <center>
                         <button type="submit" class="btn btn-primary block  m-b">Masuk</button></center><br>
-                        <!--<a href="daftar/" class="pull-left">Buat Akun</a> -->
+                        <a href="daftar/" class="pull-left">Buat Akun</a>
                         <a href="lost/" class="pull-right">lupa Password ??</a>
                         <br>
                 </div><hr>
