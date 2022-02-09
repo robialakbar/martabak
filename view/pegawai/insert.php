@@ -588,7 +588,7 @@
                                 </td>
                                 <td width="30%">
                                     <div class="form-group">
-                                    <input name="npwp" class="form-control" autocomplete="off"></input>
+                                    <input name="no_taspen" class="form-control" autocomplete="off"></input>
                                     </div>
                                 </td>
                                 <td width="3%"></td>
@@ -604,7 +604,7 @@
                                 </td>
                                 <td>
                                     <div class="form-group">
-                                        <input name="masa_keseluruhan" class="form-control" required="" autocomplete="off"></input>
+                                        <input name="no_nik" class="form-control" required="" autocomplete="off"></input>
                                     </div>
                                 </td>
                             </tr>
@@ -622,7 +622,7 @@
                                 </td>
                                 <td width="30%">
                                     <div class="form-group">
-                                    <input name="npwp" class="form-control" autocomplete="off"></input>
+                                    <input name="no_bpjs" class="form-control" autocomplete="off"></input>
                                     </div>
                                 </td>
                                 <td width="3%"></td>
@@ -638,7 +638,7 @@
                                 </td>
                                 <td>
                                     <div class="form-group">
-                                        <input name="masa_keseluruhan" class="form-control" required="" autocomplete="off"></input>
+                                        <input name="no_karpeg" class="form-control" required="" autocomplete="off"></input>
                                     </div>
                                 </td>
                             </tr>
@@ -656,7 +656,7 @@
                                 </td>
                                 <td width="30%">
                                     <div class="form-group">
-                                    <input name="npwp" class="form-control" autocomplete="off"></input>
+                                    <input name="unit_kerja" class="form-control" autocomplete="off"></input>
                                     </div>
                                 </td>
                                 <td width="3%"></td>
@@ -672,7 +672,7 @@
                                 </td>
                                 <td>
                                     <div class="form-group">
-                                        <input name="masa_keseluruhan" class="form-control" required="" autocomplete="off"></input>
+                                        <input name="email" class="form-control" required="" autocomplete="off"></input>
                                     </div>
                                 </td>
                             </tr>
@@ -690,7 +690,7 @@
                                 </td>
                                 <td width="30%">
                                     <div class="form-group">
-                                    <input name="npwp" class="form-control" autocomplete="off"></input>
+                                    <input name="pendidikan" class="form-control" autocomplete="off"></input>
                                     </div>
                                 </td>
                                 <td width="3%"></td>
@@ -706,7 +706,7 @@
                                 </td>
                                 <td>
                                     <div class="form-group">
-                                        <input name="masa_keseluruhan" class="form-control" required="" autocomplete="off"></input>
+                                        <input name="status_pernikahan" class="form-control" required="" autocomplete="off"></input>
                                     </div>
                                 </td>
                             </tr>
@@ -724,7 +724,7 @@
                                 </td>
                                 <td width="30%">
                                     <div class="form-group">
-                                    <input name="npwp" class="form-control" autocomplete="off"></input>
+                                    <input name="nama_bank" class="form-control" autocomplete="off"></input>
                                     </div>
                                 </td>
                                 <td width="3%"></td>
@@ -740,7 +740,7 @@
                                 </td>
                                 <td>
                                     <div class="form-group">
-                                        <input name="masa_keseluruhan" class="form-control" required="" autocomplete="off"></input>
+                                        <input name="no_bank" class="form-control" required="" autocomplete="off"></input>
                                     </div>
                                 </td>
                             </tr>
