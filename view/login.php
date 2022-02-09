@@ -47,8 +47,6 @@
     <td align="center" width="15%">         
          <img src="logo/bm.png" style="width: 100px;">
     </td>
-    <td width="100%">
-     <h3><b style="color: White;">
      <img src="logo/namlogin.png" style="width: 320px;"><br>
      <?php echo $home['instansi'];?></b></h3>
      <p style="color: black;text-shadow: 0 0 5px white;"><b><?php echo $home['alamat'];?></b></p>
