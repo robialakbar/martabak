@@ -109,7 +109,7 @@ if($_SESSION['level_simpeg']=="admin")
             <section class="content-header">
             <section class="content-header bg-teal" style="border-radius: 5px;">
             
-            <marquee><b>Selamat Datang Di Sistem Manajemen Arsip Rapi Terintegrasi Aplikasi Berbasis Administrasi Kepegawaian<?php
+            <marquee><b>Selamat Datang Di Aplikasi Data Pegawai (SI-DAWAI)<?php
           echo $row_data['nama'];
       ?> <?php
           echo $row_data['instansi'];
