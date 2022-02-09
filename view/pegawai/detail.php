@@ -1270,7 +1270,7 @@
                                 <td width="3%"></td>
                                 <td>
                                     <div class="form-group">
-                                    Masa Kerja Keseluruhan
+                                    No. NIK
                                     </div>
                                 </td>
                                 <td>
@@ -1280,10 +1280,146 @@
                                 </td>
                                 <td  style="padding-right: 20px;">
                                     <div class="form-group">
-                                        <input name="masa_keseluruhan" value="<?php echo $row_pegawai['masa_kerja_keseluruhan'];?>" class="form-control" required="" autocomplete="off"></input>
+                                        <input name="no_nik" value="<?php echo $row_pegawai['no_nik'];?>" class="form-control" required="" autocomplete="off"></input>
                                     </div>
                                 </td>
                             </tr>
+                              <!-- baris 12  -->
+                              <tr>
+                                <td  style="padding-left: 20px;">
+                                    <div class="form-group">
+                                    No. BPJS
+                                    </div>
+                                </td>
+                                <td width="3%">
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td width="30%">
+                                    <div class="form-group">
+                                    <input name="no_bpjs" value="<?php echo $row_pegawai['no_bpjs'];?>" class="form-control" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                                <td width="3%"></td>
+                                <td>
+                                    <div class="form-group">
+                                    No. KARPEG
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td  style="padding-right: 20px;">
+                                    <div class="form-group">
+                                        <input name="no_karpeg" value="<?php echo $row_pegawai['no_karpeg'];?>" class="form-control" required="" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                            </tr>
+                             <!-- baris 13  -->
+                             <tr>
+                                <td  style="padding-left: 20px;">
+                                    <div class="form-group">
+                                    Unit Kerja
+                                    </div>
+                                </td>
+                                <td width="3%">
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td width="30%">
+                                    <div class="form-group">
+                                    <input name="unit_kerja" value="<?php echo $row_pegawai['unit_kerja'];?>" class="form-control" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                                <td width="3%"></td>
+                                <td>
+                                    <div class="form-group">
+                                    E-Mail
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td  style="padding-right: 20px;">
+                                    <div class="form-group">
+                                        <input name="email" value="<?php echo $row_pegawai['email'];?>" class="form-control" required="" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                            </tr>
+                             <!-- baris 14  -->
+                             <tr>
+                                <td  style="padding-left: 20px;">
+                                    <div class="form-group">
+                                    Pendidikan
+                                    </div>
+                                </td>
+                                <td width="3%">
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td width="30%">
+                                    <div class="form-group">
+                                    <input name="pendidikan" value="<?php echo $row_pegawai['pendidikan'];?>" class="form-control" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                                <td width="3%"></td>
+                                <td>
+                                    <div class="form-group">
+                                    Status Pernikahan
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td  style="padding-right: 20px;">
+                                    <div class="form-group">
+                                        <input name="status_pernikahan" value="<?php echo $row_pegawai['status_pernikahan'];?>" class="form-control" required="" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                            </tr>    
+                            <!-- baris 15  -->
+                            <tr>
+                                <td  style="padding-left: 20px;">
+                                    <div class="form-group">
+                                    Nama Bank
+                                    </div>
+                                </td>
+                                <td width="3%">
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td width="30%">
+                                    <div class="form-group">
+                                    <input name="nama_bank" value="<?php echo $row_pegawai['nama_bank'];?>" class="form-control" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                                <td width="3%"></td>
+                                <td>
+                                    <div class="form-group">
+                                    Nomor Rekening Bank
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td  style="padding-right: 20px;">
+                                    <div class="form-group">
+                                        <input name="no_bank" value="<?php echo $row_pegawai['no_bank'];?>" class="form-control" required="" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                            </tr>                 
 
 
 
