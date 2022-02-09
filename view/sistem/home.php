@@ -125,7 +125,7 @@ if($_SESSION['level_simpeg']=="admin")
                      <img src="logo/bm.png" style="width: 100px;">
                 </td>
                 <td width="85%">
-                 <h2><b style="color: orange;">Sistem Manajemen Arsip Rapi Terintegrasi Aplikasi Berbasis Administrasi Kepegawaian <?php echo $row_data['nama'];?><br>
+                 <h2><b style="color: orange;">Aplikasi Data Pegawai<?php echo $row_data['nama'];?><br>
                  <?php echo $row_data['instansi'];?></b></h2>
                  <p style="color: black;text-shadow: 0 0 5px white;"><b><?php echo $row_data['alamat'];?></b></p>
                 </td>
