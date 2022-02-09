@@ -81,7 +81,7 @@
 		
 		
 		// QUERY UNTUK MEMASUKKAN DATA (INSERT)
-			function dataInsert($nip,$nama,$tempat_lahir,$tgl_lahir,$gender,$agama,$kebangsaan,$jumlah_keluarga,$alamat,$sk_terakhir,$pangkat,$tmt_golongan,$jenis,$tmt_capeg,$status,$jabatan,$digaji,$gaji_pokok,$masa_golongan,$masa_keseluruhan,$npwp,$rt,$rw,$desa,$kecamatan,$kabupaten,$wa) {
+			function dataInsert(($nip,$nama,$tempat_lahir,$tgl_lahir,$gender,$agama,$kebangsaan,$jumlah_keluarga,$alamat,$sk_terakhir,$pangkat,$tmt_golongan,$jenis,$tmt_capeg,$status,$jabatan,$digaji,$gaji_pokok,$masa_golongan,$masa_keseluruhan,$npwp,$rt,$rw,$desa,$kecamatan,$kabupaten,$wa,$no_taspen,$no_nik,$no_bpjs,$no_karpeg,$unit_kerja,$email,$pendidikan,$status_pernikahan,$nama_bank,$no_bank)) {
 				$koneksi = $this->koneksi;
 				// SQL
 
@@ -93,7 +93,7 @@
 				$id 			= $idx['id']+1;
 
 				$query		= "INSERT INTO pegawai VALUES
-							   ('$id','$nip','$nama','$tempat_lahir','$tgl_lahir','$gender','$agama','$kebangsaan','$jumlah_keluarga','$alamat','$sk_terakhir','$pangkat','$tmt_golongan','$jenis','$tmt_capeg','$status','$jabatan','$digaji','$gaji_pokok','0','$masa_golongan','$masa_keseluruhan','$npwp','$rt','$rw','$desa','$kecamatan','$kabupaten','$wa')";
+							   ('$id','$nip','$nama','$tempat_lahir','$tgl_lahir','$gender','$agama','$kebangsaan','$jumlah_keluarga','$alamat','$sk_terakhir','$pangkat','$tmt_golongan','$jenis','$tmt_capeg','$status','$jabatan','$digaji','$gaji_pokok','0','$masa_golongan','$masa_keseluruhan','$npwp','$rt','$rw','$desa','$kecamatan','$kabupaten','$wa','$no_taspen','$no_nik','$no_bpjs','$no_karpeg','$unit_kerja','$email','$pendidikan','$status_pernikahab,'$nama_bank','$no_bank')";
 				
 				$sql		= mysqli_query($koneksi,$query);
 				
