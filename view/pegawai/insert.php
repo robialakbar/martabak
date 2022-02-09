@@ -574,6 +574,176 @@
                                     </div>
                                 </td>
                             </tr>
+                             <!-- baris 11  -->
+                             <tr>
+                                <td>
+                                    <div class="form-group">
+                                    No. Taspen
+                                    </div>
+                                </td>
+                                <td width="3%">
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td width="30%">
+                                    <div class="form-group">
+                                    <input name="npwp" class="form-control" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                                <td width="3%"></td>
+                                <td>
+                                    <div class="form-group">
+                                    No. NIK
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <input name="masa_keseluruhan" class="form-control" required="" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                            </tr>
+                             <!-- baris 12  -->
+                             <tr>
+                                <td>
+                                    <div class="form-group">
+                                    No. BPJS
+                                    </div>
+                                </td>
+                                <td width="3%">
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td width="30%">
+                                    <div class="form-group">
+                                    <input name="npwp" class="form-control" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                                <td width="3%"></td>
+                                <td>
+                                    <div class="form-group">
+                                    No. Karpeg
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <input name="masa_keseluruhan" class="form-control" required="" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                            </tr>
+                             <!-- baris 13  -->
+                             <tr>
+                                <td>
+                                    <div class="form-group">
+                                    Unit Kerja
+                                    </div>
+                                </td>
+                                <td width="3%">
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td width="30%">
+                                    <div class="form-group">
+                                    <input name="npwp" class="form-control" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                                <td width="3%"></td>
+                                <td>
+                                    <div class="form-group">
+                                    Email
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <input name="masa_keseluruhan" class="form-control" required="" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                            </tr>
+                             <!-- baris 14  -->
+                             <tr>
+                                <td>
+                                    <div class="form-group">
+                                    Pendidikan
+                                    </div>
+                                </td>
+                                <td width="3%">
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td width="30%">
+                                    <div class="form-group">
+                                    <input name="npwp" class="form-control" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                                <td width="3%"></td>
+                                <td>
+                                    <div class="form-group">
+                                    Status Pernikahan
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <input name="masa_keseluruhan" class="form-control" required="" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                            </tr>
+                             <!-- baris 10  -->
+                             <tr>
+                                <td>
+                                    <div class="form-group">
+                                    Nama Bank
+                                    </div>
+                                </td>
+                                <td width="3%">
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td width="30%">
+                                    <div class="form-group">
+                                    <input name="npwp" class="form-control" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                                <td width="3%"></td>
+                                <td>
+                                    <div class="form-group">
+                                    Nomor Bank
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <input name="masa_keseluruhan" class="form-control" required="" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                            </tr>
                         </table>
                         <br>
                         <center>
