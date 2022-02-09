@@ -456,12 +456,179 @@
                                     :
                                     </div>
                                 </td>
+                                 <!-- baris 11  -->
+                            <tr>
                                 <td>
                                     <div class="form-group">
-                                        <?php echo $row_pegawai['masa_kerja_keseluruhan'];?>
+                                    No. Taspen
+                                    </div>
+                                </td>
+                                <td >
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    <?php echo $row_pegawai['no_taspen'];?>
+                                    </div>
+                                </td>
+                                <td ></td>
+                                <td>
+                                    <div class="form-group">
+                                    No.NIK
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <?php echo $row_pegawai['no_nik'];?>
                                     </div>
                                 </td>
                             </tr>
+                            <!-- baris 12  -->
+                            <tr>
+                                <td>
+                                    <div class="form-group">
+                                    No. BPJS
+                                    </div>
+                                </td>
+                                <td >
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    <?php echo $row_pegawai['no_bpjs'];?>
+                                    </div>
+                                </td>
+                                <td ></td>
+                                <td>
+                                    <div class="form-group">
+                                    No.Karpeg
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <?php echo $row_pegawai['no_karpeg'];?>
+                                    </div>
+                                </td>
+                            </tr>
+                            <!-- baris 13 -->
+                            <tr>
+                                <td>
+                                    <div class="form-group">
+                                    Unit Kerja
+                                    </div>
+                                </td>
+                                <td >
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    <?php echo $row_pegawai['unit_kerja'];?>
+                                    </div>
+                                </td>
+                                <td ></td>
+                                <td>
+                                    <div class="form-group">
+                                    E-Mail
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <?php echo $row_pegawai['email'];?>
+                                    </div>
+                                </td>
+                            </tr>
+                             <!-- baris 14 -->
+                             <tr>
+                                <td>
+                                    <div class="form-group">
+                                    Pendidikan
+                                    </div>
+                                </td>
+                                <td >
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    <?php echo $row_pegawai['pendidikan'];?>
+                                    </div>
+                                </td>
+                                <td ></td>
+                                <td>
+                                    <div class="form-group">
+                                    Status Pernikahan
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <?php echo $row_pegawai['status_pernikahan'];?>
+                                    </div>
+                                </td>
+                            </tr>
+                             <!-- baris 15 -->
+                             <tr>
+                                <td>
+                                    <div class="form-group">
+                                    Nama Bank
+                                    </div>
+                                </td>
+                                <td >
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    <?php echo $row_pegawai['nama_bank'];?>
+                                    </div>
+                                </td>
+                                <td ></td>
+                                <td>
+                                    <div class="form-group">
+                                    Nomor Rekening Bank
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                        <?php echo $row_pegawai['no_bank'];?>
+                                    </div>
+                                </td>
+                            </tr>
+
+
+
                         </table>
                         </div>
                     </div>
