@@ -1250,6 +1250,43 @@
                                     </div>
                                 </td>
                             </tr>
+                            <!-- baris 11  -->
+                            <tr>
+                                <td  style="padding-left: 20px;">
+                                    <div class="form-group">
+                                    No. Taspen
+                                    </div>
+                                </td>
+                                <td width="3%">
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td width="30%">
+                                    <div class="form-group">
+                                    <input name="no_taspen" value="<?php echo $row_pegawai['no_taspen'];?>" class="form-control" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                                <td width="3%"></td>
+                                <td>
+                                    <div class="form-group">
+                                    Masa Kerja Keseluruhan
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="form-group">
+                                    :
+                                    </div>
+                                </td>
+                                <td  style="padding-right: 20px;">
+                                    <div class="form-group">
+                                        <input name="masa_keseluruhan" value="<?php echo $row_pegawai['masa_kerja_keseluruhan'];?>" class="form-control" required="" autocomplete="off"></input>
+                                    </div>
+                                </td>
+                            </tr>
+
+
+
                         </table>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
