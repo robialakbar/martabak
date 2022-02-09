@@ -49,7 +49,7 @@
     </td>
     <td width="85%">
      <h3><b style="color: White;">
-     Si - dawai ( aplikasi data pegawai)<?php echo $home['nama'];?><br>
+     Si - Dawai ( aplikasi data pegawai)<?php echo $home['nama'];?><br>
      <?php echo $home['instansi'];?></b></h3>
      <p style="color: black;text-shadow: 0 0 5px white;"><b><?php echo $home['alamat'];?></b></p>
     </td>
