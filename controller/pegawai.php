@@ -265,7 +265,7 @@
 				$unit_kerja     = $_POST['unit_kerja'];
 				$email          = $_POS['email'];
 				$pendidikan     = $_POST['pendidikan'];
-				$status_pernikahan = $_POS['status_pernikahan'];
+				$status_pernikahan = $_POST['status_pernikahan'];
 				$nama_bank      = $_POST['nama_bank'];
 				$no_bank        = $_POST['no_bank'];
 				
