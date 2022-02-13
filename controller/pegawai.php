@@ -148,6 +148,7 @@
 		
 		// FUNCTION UNTUK MENANGANI PROSES INSERT KE TABEL
 			function insert_data() {
+				// var_dump($_POST);  die;
 				// DARI VIEW
 				// MENAMPUNG DATA YANG DIINPUTKAN
 				$nip 			= $_POST['nip'];
