@@ -4,13 +4,9 @@
 	{
 		// Property
 		public $hostname 	= "localhost"; 
-		public $username 	= "hendraws";
-		public $password 	= "hendraws";
-		public $database 	= "freelance_martabak";
-		// public $hostname 	= "localhost"; 
-		// public $username 	= "u741451673_martabak";
-		// public $password 	= "Indonesia12!";
-		// public $database 	= "u741451673_martabak";
+		public $username 	= "u741451673_martabak";
+		public $password 	= "Indonesia12!";
+		public $database 	= "u741451673_martabak";
 
 		protected $koneksi;
 		
