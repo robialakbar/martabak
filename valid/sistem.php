@@ -72,7 +72,7 @@
 					else  {
 						echo "<script> 
 						  alert('Tidak Bisa Login, Hak Akses Salah!'); 
-						  window.location = 'http://localhost/Aplikasi%20Dora/Simpeg/';
+						  window.location = 'http://martabak.online/';
 						  </script>";
 						
 					}
@@ -82,7 +82,7 @@
 				else {
 					echo "<script> 
 						  alert('Proses Login Gagal! Username / Password Salah! Silakan Coba Lagi!'); 
-						  window.location = 'http://wsimpegku.000webhostapp.com'; 
+						  window.location = 'http://martabak.online/'; 
 						  </script>";
 				}
 			
@@ -141,7 +141,7 @@
 							if($data 		== TRUE) {
 							echo "<script> 
 								  alert('Proses Pendaftaran Berhasil!,Silahkan Login');
-								  window.location = 'http://wsimpegku.000webhostapp.com'; 
+								  window.location = 'http://martabak.online/'; 
 								  </script>";
 						
 									} 
@@ -191,7 +191,7 @@
 				if($data 		== TRUE) {
 					echo "<script> 
 						  alert('Proses Ubah Password Berhasil!,Silahkan Login');
-						  window.location = 'http://wsimpegku.000webhostapp.com'; 
+						  window.location = 'http://martabak.online/'; 
 						  </script>";
 				
 				} 
@@ -200,7 +200,7 @@
 				else {
 					echo "<script> 
 						  alert('Gagal!');
-						  window.location = 'http://wsimpegku.000webhostapp.com'; 
+						  window.location = 'http://martabak.online/'; 
 						  </script>";
 				}
 			}
