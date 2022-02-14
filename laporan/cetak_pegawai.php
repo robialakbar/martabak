@@ -27,7 +27,7 @@ ob_start();
 <body>
 
 <center><a style="text-align: center;font-size: 18px;"><b><?php echo $home['instansi'];?></b></a><br>
-<a style="text-align: center;font-size: 16px;"><b>Daftar Kepegawian <?php echo $home['nama'];?></b></a><br>
+<a style="text-align: center;font-size: 16px;"><b>Daftar Kepegawaian <?php echo $home['nama'];?></b></a><br>
 <a style="text-align: center;font-size: 14px;"><b> <?php echo $home['alamat'];?> </b></a></center>
 <br>
 <hr>
