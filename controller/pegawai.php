@@ -127,7 +127,7 @@
 			function info() {
 				// MODEL
 
-
+                $nip		        	= $_GET['nip'];
 				$data			        = $this->sistem->dataHome();
 
 				// VIEW
