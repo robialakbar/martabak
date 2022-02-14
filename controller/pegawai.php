@@ -42,6 +42,7 @@
 
 				$data		 = $this->sistem->dataHome();
 				$data_pegawai = $this->pegawai->dataDetail($nip);
+				
 			
 				include "view/dashboard.php";
 			}
@@ -129,6 +130,7 @@
 
                 $nip		        	= $_GET['nip'];
 				$data			        = $this->sistem->dataHome();
+				$data_detail   			= $this->pegawai->dataDetail($nip);
 
 				// VIEW
 				// MENGARAHKAN KE FILE VIEW/SELECT.PHP
