@@ -128,9 +128,9 @@
 			function info() {
 				// MODEL
 
-                $nip		        	= $_GET['nip'];
+                
 				$data			        = $this->sistem->dataHome();
-				$data_detail   			= $this->pegawai->dataDetail($nip);
+				
 
 				// VIEW
 				// MENGARAHKAN KE FILE VIEW/SELECT.PHP
