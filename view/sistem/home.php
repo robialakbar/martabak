@@ -109,7 +109,7 @@ if($_SESSION['level_simpeg']=="admin")
             <section class="content-header">
             <section class="content-header bg-teal" style="border-radius: 5px;">
             
-            <marquee><b>Selamat Datang Di Sistem Informasi Data Pegawai <?php
+            <marquee><b>Selamat Datang Di Sistem Informasi Data Pegawai |  <?php
           echo $row_data['nama'];
       ?> <?php
           echo $row_data['instansi'];
