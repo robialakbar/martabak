@@ -609,7 +609,7 @@ $row_data= mysqli_fetch_array($data);
           </a>
         </li>
         <li>
-          <a href="index.php?controller=pegawai&method=info">
+          <a href="index.php?controller=pegawai&method=detail">
             <i class="fa fa-street-view"></i> <span>Data Diri</span>
           </a>
         </li>
