@@ -44,19 +44,11 @@ ob_start();
 <table width="100%" style="font-size: 14px;">
   <tr>
     <td>NAMA INSTANSI</td>
-    <td>: <?php echo $home['nama'];?></td>
+    <td>: <?php echo $home['instansi'];?></td>
   </tr>
   <tr>
     <td>ALAMAT LENGKAP INSTANSI</td>
     <td>: <?php echo $home['alamat'];?></td>
-  </tr>
-  <tr>
-    <td>INSTANSI INDUK</td>
-    <td>: <?php echo $home['instansi'];?></td>
-  </tr>
-  <tr>
-    <td>BENDAHARAWAN / PEMBUAT D. GAJI</td>
-    <td>: <?php echo $pencetak;?> / NIP. <?php echo $nipcetak;?></td>
   </tr>
   <tr>
     <td style="padding-top: 30px;padding-left: 12px;">1 DATA PEGAWAI:</td>
@@ -179,7 +171,7 @@ ob_start();
   <tr>
     <td width="58%" style=";padding-left: 29px;">
     Mengetahui / mengesahkan
-      <br>Plt. Kepala <?php echo $home['nama'];?>
+      <br>Kepala <?php echo $home['instansi'];?>
       <br>
       <br>
       <br>
@@ -226,7 +218,7 @@ ob_start();
 <br>
 <table width="100%" style="font-size: 15px;">
   <tr>
-    <td style="padding-left: 30px;"><b>A. KAWIN SYAH DENGAN ISTRI / SUAMI</b></td>
+    <td style="padding-left: 30px;"><b>A. KAWIN SAH DENGAN ISTRI / SUAMI</b></td>
   </tr>
   <tr>
     <td style="padding-top: 20px;">
