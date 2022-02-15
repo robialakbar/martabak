@@ -153,7 +153,7 @@ $data_pegawai = mysqli_fetch_array($sql);
     <td align="center" rowspan="7" width="3%">No</td>
     <td align="center" rowspan="7" width="15%">Nama Pegawai
                 <br>Tanggal Lahir
-                <br>NIP
+                <br>NIP / NIPTK
                 <br>Status Pegawai/Golongan
                 <br>NPWP
     </td>

@@ -35,7 +35,7 @@
                             <tr>
                                 <td width="13%">
                                     <div class="form-group">
-                                    Nip
+                                    NIP / NIPTK
                                     </div>
                                 </td>
                                 <td width="3%">

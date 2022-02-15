@@ -38,7 +38,7 @@ $row_pegawai = mysqli_fetch_array($sql);
                             <tr>
                                 <td width="20%">
                                     <div class="form-group">
-                                    Nip
+                                    NIP / NIPTK
                                     </div>
                                 </td>
                                 <td width="3%" >
