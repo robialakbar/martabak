@@ -25,7 +25,7 @@ function TanggalIndo($tanggal, $cetak_hari = false)
                 'Desember'
             );
     $split    = explode('-', $tanggal);
-    $tgl_indo = $split[2] . ' ' . $bulan[ (int)$split[1] ] . ' ' . $split[1];
+    $tgl_indo = $split[2] . ' ' . $bulan[ (int)$split[1] ] . ' ' . $tahun[ $split[1] ];
     
     if ($cetak_hari) {
         $num = date('N', strtotime($tanggal));
