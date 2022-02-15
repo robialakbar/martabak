@@ -81,7 +81,7 @@ date_default_timezone_set('Asia/Jakarta');
                                                 echo "Desember";
                                              }
                                 echo " / ".date('Y',strtotime($row_gaji['tgl_gaji']));?> || </label><br>
-                                <label class="label" style="font-size: 15px;color: black;">NIP: <?php echo $row_pegawai['nip'];?> / <?php echo $row_pegawai['nama'];?>
+                                <label class="label" style="font-size: 15px;color: black;">NIP / NIPTK: <?php echo $row_pegawai['nip'];?> / <?php echo $row_pegawai['nama'];?>
                                 </label>
                             </div>
             <form action="index.php?controller=gaji&method=update_data" method="post">

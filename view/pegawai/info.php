@@ -434,7 +434,7 @@ $row_pegawai = mysqli_fetch_array($sql);
                                         <th width="1%">No</th>
                                         <th><center>Nama Istri / Suami</center></th>
                                         <th><center>Tempat, Tanggal Lahir</center></th>
-                                        <th><center>NIP/NIK</center></th>
+                                        <th><center>NIP/NIPTK</center></th>
                                         <th><center>Pekerjaan</center></th>
                                         <th width="10%"><center>Tanggal Nikah</center></th>
                                         <th><center>Istri / Suami ke</center></th>

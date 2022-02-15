@@ -35,7 +35,7 @@ if ($_SESSION['level_simpeg']=="admin") {
                   <th width="1">No</th>
                   <th hidden=""></th>
                   <th> Foto</th>
-                  <th><center>NIP</center></th>
+                  <th><center>NIP / NIPTK</center></th>
                   <th width="20%">Nama Pegawai</th>
                   <th width="12%">Username</th>
                   <th width="15%">level</th>
@@ -153,7 +153,7 @@ if ($_SESSION['level_simpeg']=="admin") {
                                     <td>
                                     <div class="modal-body">
                                       <div class="form-group">
-                                        <label>NIP</label>
+                                        <label>NIP / NIPTK</label>
                                       </div>
                                     </div>
                                     </td>
@@ -340,7 +340,7 @@ if ($_SESSION['level_simpeg']=="admin") {
                                     <td>
                                     <div class="modal-body">
                                       <div class="form-group">
-                                        <label>NIP</label>
+                                        <label>NIP / NIPTK</label>
                                       </div>
                                     </div>
                                     </td>

@@ -139,7 +139,7 @@ if ($_SESSION['level_simpeg']=="admin") {
                                 <thead>
                                     <tr class="odd bg-gray">
                                         <th width="5%">No</th>
-                                        <th><center>Nip</center></th>
+                                        <th><center>NIP / NIPTK</center></th>
                                         <th><center>Nama Pegawai</center></th>
                                         <th><center>Gaji Bulan</center></th>
                                         <th><center>Total Gaji</center></th>

@@ -83,7 +83,7 @@ if ($_SESSION['level_simpeg']=="admin") {
                                                 echo "Desember";
                                              }
                                 echo " / ".$tahun;?> || </label><br>
-                                <label class="label" style="font-size: 15px;color: black;">NIP: <?php echo $row_pegawai['nip'];?> / <?php echo $row_pegawai['nama'];?>
+                                <label class="label" style="font-size: 15px;color: black;">NIP / NIPTK: <?php echo $row_pegawai['nip'];?> / <?php echo $row_pegawai['nama'];?>
                                 </label>
                             </div>
                 <form action="index.php?controller=gaji&method=insert_data" method="post">

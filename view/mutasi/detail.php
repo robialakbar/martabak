@@ -39,7 +39,7 @@ if ($_SESSION['level_simpeg']=="admin") {
                                              <label>Nama Pegawai : <?php echo $row_pegawai['nama'];?> </label>
                                         </td>
                                         <td colspan="2" align="center">
-                                            <label>NIP : <?php echo $row_pegawai['nip'];?> 
+                                            <label>NIP  / NIPTK: <?php echo $row_pegawai['nip'];?> 
                                                 </label>
                                         </td>
                                     </tr>

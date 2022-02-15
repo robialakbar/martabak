@@ -82,7 +82,7 @@ date_default_timezone_set('Asia/Jakarta');
                                                 echo "Desember";
                                              }
                                 echo " / ".$tahun;?> || </label><br>
-                                <label class="label" style="font-size: 15px;color: black;">NIP: <?php echo $row_pegawai['nip'];?> / <?php echo $row_pegawai['nama'];?>
+                                <label class="label" style="font-size: 15px;color: black;">NIP / NIPTK: <?php echo $row_pegawai['nip'];?> / <?php echo $row_pegawai['nama'];?>
                                 </label>
                                 <div class="pull-right">
                                 <form action="laporan/slip_gaji.php" method="post" target="_blank">
