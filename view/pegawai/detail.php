@@ -175,7 +175,7 @@
                                 </td>
                                 <td>
                                     <div class="form-group">
-                                    <?php if($row_pegawai['tgl_lahir']=="00-00-0000"){} else { echo TanggalIndo($row_pegawai['tgl_lahir']); }?>
+                                    <?php if($row_pegawai['tgl_lahir']=="0000-00-00"){} else { echo TanggalIndo($row_pegawai['tgl_lahir']); }?>
                                     </div>
                                 </td>
                                 <td ></td>
