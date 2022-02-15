@@ -21,7 +21,7 @@
 
 <body class="blue-bg" style="background: linear-gradient(to right,#20CEFF, #48D1CC);">
 <h2 align="center" style="font-size: 30px;"><b>
-Manajemen Arsip Rapi Terintegrasi Aplikasi Berbasis Administrasi Kepegawaian (MARTABAK) <br><?php echo $home['nama'];?></b></h2>
+Sistem Informasi Data Pegawai (SI-DAWAI) <br><?php echo $home['nama'];?></b></h2>
     <div class="middle-box text-center loginscreen animated fadeInDown">
         <div class="row" style="border-radius: 5px;background: teal;">
         <h3><b>Lupa Password</b></h3>

@@ -7,12 +7,12 @@ body{
 }
 
 .navbar-default{
-  background-color:rgba(9,94,255,0.86);
-  border-color:#3546dd;
+  background-color:rgba(148, 90, 43, 0.86);
+  border-color:#be7d1c;
 }
 
 .navbar-default{
-  background-image:linear-gradient(to bottom,#1d8ee0 0,#86cfee 100%);
+  background-image:linear-gradient(to bottom,#724c20 0,#86cfee 100%);
   filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 

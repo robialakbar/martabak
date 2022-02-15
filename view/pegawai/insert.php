@@ -377,7 +377,7 @@
                                 </td>
                                 <td>
                                     <div class="form-group">
-                                        <input name="gaji" class="form-control" value="PP No 30 Tahun 2015" required="" autocomplete="off"></input>
+                                        <input name="gaji" class="form-control" value="PP No 15 Tahun 2019" required="" autocomplete="off"></input>
                                     </div>
                                 </td>
                             </tr>

@@ -55,7 +55,6 @@ ob_start();
 
 <center><a style="text-align: center;font-size: 18px;"><b><?php echo $home['instansi'];?></b></a><br>
 <a style="text-align: center;font-size: 16px;"><b>Daftar Pembayaran Gaji Induk PNS/CPNS</b></a><br>
-<a style="text-align: center;font-size: 14px;"><b><?php echo $home['nama'];?> || <?php echo $home['nama'];?> </b></a><br>
 <a style="text-align: center;font-size: 14px;"><b>Bulan : 
                                           <?php 
                                             if ($bulan=="01") {
@@ -281,7 +280,7 @@ ob_start();
     <td width="40%">
     </td>
     <td width="35%" style="font-size: 13px;">
-      Kepala <?php echo $home['nama'];?>
+      Kepala <?php echo $home['instansi'];?>
       <br>
       <br>
       <br>
