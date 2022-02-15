@@ -220,6 +220,7 @@
 
 		// FUNCTION UNTUK MENANGANI PROSES INSERT KE TABEL
 			function ubah_data() {
+
 				// DARI VIEW
 				// MENAMPUNG DATA YANG DIINPUTKAN
 				$nip 			= $_POST['nip'];
@@ -264,15 +265,18 @@
 				$no_bpjs        = $_POST['no_bpjs'];
 				$no_karpeg      = $_POST['no_karpeg'];
 				$unit_kerja     = $_POST['unit_kerja'];
-				$email          = $_POS['email'];
+				$email          = $_POST['email'];
 				$pendidikan     = $_POST['pendidikan'];
 				$status_pernikahan = $_POST['status_pernikahan'];
 				$nama_bank      = $_POST['nama_bank'];
 				$no_bank        = $_POST['no_bank'];
-				
+				// var_dump([$nip,$nama,$tempat_lahir,$tgl_lahir,$gender,$agama,$kebangsaan,$jumlah_keluarga,$alamat,$sk_terakhir,$pangkat,$tmt_golongan,$jenis,$tmt_capeg,$status,$jabatan,$digaji,$gaji_pokok,$penghasilan,$masa_golongan,$masa_keseluruhan,$npwp,$rt,$rw,$desa,$kecamatan,$kabupaten,$wa,$no_taspen,$no_nik,$no_bpjs,$no_karpeg,$unit_kerja,$email,$pendidikan,$status_pernikahan,$nama_bank,$no_bank]);  die;
+
+				// var_dump([$nip,$nama,$tempat_lahir,$tgl_lahir,$gender,$agama,$kebangsaan,$jumlah_keluarga,$alamat,$sk_terakhir,$pangkat,$tmt_golongan,$jenis,$tmt_capeg,$status,$jabatan,$digaji,$gaji_pokok,$penghasilan,$masa_golongan,$masa_keseluruhan,$npwp,$rt,$rw,$desa,$kecamatan,$kabupaten,$wa,$no_taspen,$no_nik,$no_bpjs,$no_karpeg,$unit_kerja,$email,$pendidikan,$status_pernikahan,$nama_bank,$no_bank]);  die;
+
 				// DARI MODEL
 				// MENGARAH KE METHOD DI CLASS MODEL PENDUDUK
-				$data			= $this->pegawai->dataUpdate($nip,$nama,$tempat_lahir,$tgl_lahir,$gender,$agama,$kebangsaan,$jumlah_keluarga,$alamat,$sk_terakhir,$pangkat,$tmt_golongan,$jenis,$tmt_capeg,$status,$jabatan,$digaji,$gaji_pokok,$masa_golongan,$masa_keseluruhan,$npwp,$rt,$rw,$desa,$kecamatan,$kabupaten,$wa,$no_taspen,$no_nik,$no_bpjs,$no_karpeg,$unit_kerja,$email,$pendidikan,$status_pernikahan,$nama_bank,$no_bank);
+				$data			= $this->pegawai->dataUpdate($nip,$nama,$tempat_lahir,$tgl_lahir,$gender,$agama,$kebangsaan,$jumlah_keluarga,$alamat,$sk_terakhir,$pangkat,$tmt_golongan,$jenis,$tmt_capeg,$status,$jabatan,$digaji,$gaji_pokok,$penghasilan,$masa_golongan,$masa_keseluruhan,$npwp,$rt,$rw,$desa,$kecamatan,$kabupaten,$wa,$no_taspen,$no_nik,$no_bpjs,$no_karpeg,$unit_kerja,$email,$pendidikan,$status_pernikahan,$nama_bank,$no_bank);
 				
 				// DARI VIEW
 				// MENGARAHKAN KE FILE VIEW/SELECT.PHP

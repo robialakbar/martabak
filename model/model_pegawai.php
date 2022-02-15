@@ -120,6 +120,7 @@
 		
 		// QUERY UNTUK MENGUBAH DATA (UPDATE)
 			function dataUpdate($nip,$nama,$tempat_lahir,$tgl_lahir,$gender,$agama,$kebangsaan,$jumlah_keluarga,$alamat,$sk_terakhir,$pangkat,$tmt_golongan,$jenis,$tmt_capeg,$status,$jabatan,$digaji,$gaji_pokok,$penghasilan,$masa_golongan,$masa_keseluruhan,$npwp,$rt,$rw,$desa,$kecamatan,$kabupaten,$wa,$no_taspen,$no_nik,$no_bpjs,$no_karpeg,$unit_kerja,$email,$pendidikan,$status_pernikahan,$nama_bank,$no_bank) {
+				// var_dump($nip,$nama,$tempat_lahir,$tgl_lahir,$gender,$agama,$kebangsaan,$jumlah_keluarga,$alamat,$sk_terakhir,$pangkat,$tmt_golongan,$jenis,$tmt_capeg,$status,$jabatan,$digaji,$gaji_pokok,$penghasilan,$masa_golongan,$masa_keseluruhan,$npwp,$rt,$rw,$desa,$kecamatan,$kabupaten,$wa,$no_taspen,$no_nik,$no_bpjs,$no_karpeg,$unit_kerja,$email,$pendidikan,$status_pernikahan,$nama_bank,$no_bank);  die;
 				$koneksi = $this->koneksi;
 				// SQL
 				$query		= "UPDATE pegawai SET
@@ -149,7 +150,7 @@
 								desa 						= '$desa',
 								kecamatan 					= '$kecamatan',
 								kabupaten 					= '$kabupaten',
-								wa                          = '$wa'
+								wa                          = '$wa',
 								no_taspen                   = '$no_taspen',
 								no_nik                      = '$no_nik',
 								no_bpjs                     = '$no_bpjs',
@@ -163,7 +164,7 @@
 							   WHERE nip	= '$nip'
 							   ";
 				
-				$sql		= mysqli_query($koneksi,$query);
+				$sql		= mysqli_query($koneksi,$query) or die(mysqli_error($koneksi));
 				
 				// CEK SQL
 				if($sql == TRUE) {
