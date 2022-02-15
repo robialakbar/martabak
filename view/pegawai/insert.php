@@ -45,7 +45,7 @@
                                 </td>
                                 <td width="22%">
                                     <div class="form-group">
-                                    <input name="nip" class="form-control" placeholder="Nip" autocomplete="off"  onkeypress="return angka(event);" required=""></input>
+                                    <input name="nip" class="form-control" placeholder="NIP / NIPTK" autocomplete="off"  onkeypress="return angka(event);" required=""></input>
                                     </div>
                                 </td>
                                 <td width="3%"></td>
