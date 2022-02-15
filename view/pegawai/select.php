@@ -35,7 +35,7 @@
                                 <thead>
                                     <tr class="odd bg-gray">
                                         <th width="5%">No</th>
-                                        <th><center>Nip</center></th>
+                                        <th><center>NIP / NIPTK</center></th>
                                         <th><center>Nama Pegawai</center></th>
                                         <th><center>Jabatan</center></th>
                                         <?php 
