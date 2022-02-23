@@ -26,7 +26,7 @@
 
              <a href="index.php?controller=pegawai&method=gaji&nip=<?php echo $row_pegawai['nip'];?>" class="btn btn-md btn-info" data-toggle="tooltip" data-placement="top" title="Penghasilan"><i class="fa fa-money fa-fw"></i>Penghasilan</a>
 
-             <a href="index.php?controller=pegawai&method=berkas&nip=<?php echo $row_pegawai['nip'];?>" class="btn btn-md btn-info" data-toggle="tooltip" data-placement="top" title="Lampiran"><i class="fa fa-file-archive-o fa-fw"></i>Lampiran</a>
+             <a href="index.php?controller=pegawai&method=berkas&method=select<?php echo $row_pegawai['nip'];?>" class="btn btn-md btn-info" data-toggle="tooltip" data-placement="top" title="Lampiran"><i class="fa fa-file-archive-o fa-fw"></i>Lampiran</a>
 
              <div class="pull-right">
              <form method="post" action="laporan/surat_keterangan.php" target="_blank">
